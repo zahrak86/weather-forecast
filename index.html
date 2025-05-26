@@ -16,29 +16,36 @@
 <body>
     <div class="weather-app">
         <header>
-            <form>
-                <input type="search" placeholder="Enter a city..." required>
-                <input type="submit" value="search">
+            <form class="search-form">
+                <input type="search" placeholder="Enter a city..." required class="search-form-input">
+                <input type="submit" value="search" class="search-form-button">
             </form>
         </header>
         <main>
-            <div>
-                <h1>Tehran</h1>
-                <p>Sunday 8:24, light rain
-                    <br />
-                    Humidity: 85%, Wind: 5.14km/h
-                </p>
+            <div class="weather-app-data">
+                <div>
+                    <h1 class="weather-app-city">Tehran</h1>
+                    <p class="weather-app-details">Sunday 8:24, light rain
+                        <br />
+                        Humidity: <strong>85%</strong>, Wind: <strong>5.14km/h</strong>
+                    </p>
+                </div>
+                <div class="weather-app-temperature-container">
+                    <div class="weather-app-icon">
+                        ⛅</div>
+                    <div class="weather-app-temperature">
+                        28 </div>
+                    <div class="weather-app-unit">℃</div>
+                </div>
             </div>
-            <div>
-                ⛅28℃
-            </div>
-        </main>
-        <footer>
-            This project was coded by
-            <a href="https://github.com/zahrak86" target="_blank">Zahra Ghasemi</a> , is open source <a
-                href="https://github.com/zahrak86/weather-forecast" target="_blank">GitHub</a> and hosted <a
-                href="https://weather-forcast-week7-challenge.netlify.app/" target="_blank">Netlify</a>
-        </footer>
+    </div>
+    </main>
+    <footer>
+        This project was coded by
+        <a href="https://github.com/zahrak86" target="_blank">Zahra Ghasemi</a> , is open source <a
+            href="https://github.com/zahrak86/weather-forecast" target="_blank">GitHub</a> and hosted <a
+            href="https://weather-forcast-week7-challenge.netlify.app/" target="_blank">Netlify</a>
+    </footer>
     </div>
 </body>
 
