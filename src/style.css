@@ -34,13 +34,6 @@ header {
   margin-left: 5px;
   font-size: 16px;
 }
-footer {
-  border-top: 1px solid #f9f7fe;
-  padding: 30px 0 0 0;
-  text-align: center;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
-}
 main {
   padding: 30px 0;
 }
@@ -77,4 +70,12 @@ main {
 .weather-app-unit {
   margin-top: 16px;
   font-size: 28px;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
 }
